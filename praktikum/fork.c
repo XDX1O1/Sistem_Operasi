@@ -13,7 +13,7 @@ int main() {
 
   child_id = fork();
 
-  wait(&status);
+  // wait(&status);
 
   printf("\nIni akan kepanggil 2 kali!\n");
 
